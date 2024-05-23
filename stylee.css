@@ -1,0 +1,81 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'poppins' sans-serif;
+}
+body{
+    width: 100%;
+    background-image: url(https://getwallpapers.com/wallpaper/full/5/9/a/1444119-4k-games-wallpaper-3840x2160-for-pc.jpg);
+    background-position: center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+section{
+    text-align: center;
+    width: 500px;
+    height: 470px;  
+    position: relative;
+    margin-left: 30%;
+    margin-top:35px;
+    border-radius: 8px;     
+}
+.game--title{
+    position: relative;
+    font-size: 35px;
+    color:rgb(80, 20, 20);
+    margin-top: 0;
+    margin-left: 22%;
+    padding-top: 15px;
+    margin-bottom: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.game--container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    gap: 15px;
+    margin-top:1px;
+    margin-bottom: 5%;
+    margin-left: 19%;
+    
+}
+.cell{
+    cursor: pointer;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    width: 50px;
+    color: rgb(188, 134, 35);
+    padding: 40px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.game--status{
+    position: relative;
+    margin-left: 22%;
+    font-size: 35px;
+    margin-top:70%;
+    color: white;
+}
+.game--restart{
+    background-color: white;
+    font-weight: bold;
+    color: orange;
+    position: fixed;
+    font-size: 22px;
+    margin-left: 45.5%;
+    padding: 12px;
+    border: none;
+    margin-top: 10%;
+    border-radius: 4px;
+    cursor: pointer;
+}
